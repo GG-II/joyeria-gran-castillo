@@ -1,0 +1,46 @@
+# ================================================
+# ARCHIVO .gitignore - JOYERÍA TORRE FUERTE
+# ================================================
+
+# Archivos de configuración con datos sensibles
+config.php
+
+# Carpeta de subidas (imágenes de productos, documentos)
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporal
+tmp/
+temp/
+cache/
+
+# Backups de base de datos
+*.sql.backup
+backup_*.sql
+
+# Node modules (si usas npm)
+node_modules/
+
+# Composer (si usas PHP packages)
+vendor/
+
+# Archivos de Windows
+ehthumbs.db
+Desktop.ini
